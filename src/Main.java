@@ -6,29 +6,26 @@ public class Main {
     public static void main(String[] args) {
 
             //Задание 1
-            int age = 19;
+            int age = 11;
             if (age >= 18) {
                 System.out.println("Если возраст человека равен " + age + " то он достиг совершеннолетия");
-            }
-            if (age < 18) {
+            } else if (age < 18) {
                 System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать");
             }
 
             // Задание 2
-        int weather = 8;
+        int weather = 3;
             if (weather >= 5) {
                 System.out.println("На улиуце " + weather + " можно идти без шапки");
-            }
-            if (weather < 5) {
+            } else if (weather < 5) {
                 System.out.println("На улице " + weather + " нужно надеть шапку");
             }
 
             // Задание 3
-        int speed = 90;
+        int speed = 40;
             if (speed >= 60) {
                 System.out.println("Если скорость " + speed + " придется заплатить штраф");
-            }
-            if (speed < 60) {
+            } else if (speed < 60) {
                 System.out.println("Если скорость " + speed + " можно ездить спокойно");
             }
 
