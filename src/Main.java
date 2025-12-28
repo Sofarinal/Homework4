@@ -40,8 +40,9 @@ public class Main {
             if (year >= 18 && year <= 24) {
                 System.out.println("Если возраст человека равен " + year + " то ему нужно ходить в университет");
             }
-            if (year >= 24)
+            if (year >= 24) {
                 System.out.println("Если возраст человека равен " + year + " то ему нужно ходить на работу");
+            }
 
             // Задача 5
         int children = 17;
